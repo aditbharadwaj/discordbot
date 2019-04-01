@@ -13,8 +13,8 @@ fs.readdir('./events/', (err, files) => {
   })
 })
 client.on('message', msg => {
-  if (msg.content === 'master') {
-    msg.reply( ' Rodryghez is the Master of this server ')
+  if (msg.content === 'owner') {
+    msg.reply( ' Adit bharadwaj is the owner of this bot ')
   }
 })
 client.on('message', msg => {
