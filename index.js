@@ -14,7 +14,7 @@ fs.readdir('./events/', (err, files) => {
 })
 client.on('message', msg => {
   if (msg.content === 'owner') {
-    msg.reply( ' Adit bharadwaj is the owner of this bot ')
+    msg.reply( ' Adit bharadwaj is the owner of this bot kudos! ')
   }
 })
 client.on('message', msg => {
