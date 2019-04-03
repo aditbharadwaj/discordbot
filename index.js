@@ -47,7 +47,14 @@ bot.on("message", async message =>{
   let cmd = bot.commands.get(command.slice(prefix.length));
   if (cmd) cmd.run(bot, message, args);
 });
+bot.on("message", (message) => {
+	welcome(message);
 
+});
+bot.on("message", (message) => {
+	clear(message);
+
+});
 /*bot.on("ready", ()=> {
 console.log(bot.commands);
 });*/

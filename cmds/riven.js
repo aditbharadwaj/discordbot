@@ -24,7 +24,7 @@ module.exports.run = async (bot, message, args) => {
             .addField("Minimum price" , entry.min )
             .addField("The average variation in the prices that the Riven trades for" ,entry.stddev )
             .addField("Popularity" , entry.pop )
-            .setFooter("The prices changes weekly By DE all Data by DE");
+            .setFooter("The prices changes weekly By DE, all Data by DE");
             
             message.channel.send({embed : embed});
     });
