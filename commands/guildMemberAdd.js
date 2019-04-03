@@ -1,3 +1,3 @@
-module.exports = (client, member) => {
+module.exports = (bot, member) => {
     member.send(`Welcome on the Sensible server! Please be aware that we won't tolerate troll, spam or harassment. Have fun 😀 Dont forget to say Hi in Pubchat `)
   }
