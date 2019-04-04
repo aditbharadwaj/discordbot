@@ -7,11 +7,11 @@ module.exports.run = async (bot, message, args) => {
     console.log("it works");
    snekfetch.get(api).then(r =>{
         let body =r.body;
-        let comp = args[0];
+        let comp = args.join(' ');
         if (!comp) return message.channel.send("supply an proper weapon name");
         //if (isNaN(id)) return message.channel.send("supply a valid number");
 
-        let entry = body.find(post => post.compatibility === comp );
+        let entry = body.find(post => post.compatibility === comp.toUpperCase() );
         if (!entry) return message.channel.send("this weapon does not exist");
         //console.log(entry);
 
