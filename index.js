@@ -34,6 +34,10 @@ fs.readdir("./cmds/", (err, files) => {
  
 });
 
+bot.on("ready", async() => {
+  bot.user.setActivity("type (!help help) to get all the working commands")
+})
+
 bot.on("message", async message =>{
   if(message.author.bot) return;
   if (message.channel.type === "dm") return;

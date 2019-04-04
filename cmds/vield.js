@@ -8,18 +8,19 @@ module.exports.run = async (bot, message, args) => {
       snekfetch.get(api).then(r =>{
         let body =r.body;
         let comp = args[0];
-        if (!comp) return message.channel.send("supply an proper weapon name");
+        if (!comp) return message.channel.send("supply an proper weapon type");
         //if (isNaN(id)) return message.channel.send("supply a valid number");
  
             let entry = body.find(post => post.compatibility === comp );
-            if (!entry) return message.channel.send("this weapon does not exist"); 
+            if (!entry) return message.channel.send("this weapon type does not exist"); 
         //console.log(entry);
             let embed = new Discord.RichEmbed()
             .setAuthor("Riven prices bot v1.0")
-            .addField("Weapon Name" , entry.compatibility)
+            .addField("Weapon Type" , entry.compatibility)
             .addField("Average Price" , entry.avg)
             .addField("Popularity" , entry.pop)
-            .setFooter("The prices changes weekly By DE, all Data by DE");
+            .addField("The prices changes weekly By DE, all Data by DE")
+            .setFooter("For bot commands type !help help ");
             
             
             message.channel.send({embed : embed});
