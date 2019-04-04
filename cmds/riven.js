@@ -11,7 +11,7 @@ module.exports.run = async (bot, message, args) => {
         if (!comp) return message.channel.send("supply an proper weapon name");
         //if (isNaN(id)) return message.channel.send("supply a valid number");
 
-        let entry = body.find(post => post.compatibility === comp);
+        let entry = body.find(post => post.compatibility === comp );
         if (!entry) return message.channel.send("this weapon does not exist");
         //console.log(entry);
 

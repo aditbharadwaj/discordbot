@@ -1,0 +1,62 @@
+[
+	{
+		"itemType": "Kitgun Riven Mod",
+		"compatibility": "kitgun",
+		"rerolled": false,
+		"avg": 31.870082342177,
+		"stddev": 28.855534284122,
+		"min": 2.0,
+		"max": 800.0,
+		"pop": 3.008
+	},
+	{
+		"itemType": "Melee Riven Mod",
+		"compatibility": "melee",
+		"rerolled": false,
+		"avg": 29.067159763314,
+		"stddev": 40.001633674974,
+		"min": 2.0,
+		"max": 2000.0,
+		"pop": 9.302
+	},
+	{
+		"itemType": "Pistol Riven Mod",
+		"compatibility": "pistol",
+		"rerolled": false,
+		"avg": 23.056460369164,
+		"stddev": 118.65916693624,
+		"min": 2.0,
+		"max": 4000.0,
+		"pop": 5.0693
+	},
+	{
+		"itemType": "Rifle Riven Mod",
+		"compatibility": "rifle",
+		"rerolled": false,
+		"avg": 60.331922310757,
+		"stddev": 44.202924594636,
+		"min": 2.0,
+		"max": 2000.0,
+		"pop": 11.0523
+	},
+	{
+		"itemType": "Shotgun Riven Mod",
+		"compatibility": "shotgun",
+		"rerolled": false,
+		"avg": 54.603592814371,
+		"stddev": 63.995581707721,
+		"min": 2.0,
+		"max": 1500.0,
+		"pop": 2.2979
+	},
+	{
+		"itemType": "Zaw Riven Mod",
+		"compatibility": "zaw",
+		"rerolled": false,
+		"avg": 32.723562152134,
+		"stddev": 100.27377931313,
+		"min": 2.0,
+		"max": 3000.0,
+		"pop": 4.4501
+    }
+]
