@@ -17,7 +17,7 @@ module.exports.run = async (bot, message, args) => {
             let embed = new Discord.RichEmbed()
             .setAuthor("Home Made Multipurpose Bot")
             .addField("!price :" , entry.rivenprice)
-            .addField("!vield :" , entry.vieldprice)
+            .addField("!veild :" , entry.vieldprice)
             .setFooter("made by Adit bharadwaj follow me on github:- https://github.com/aditbharadwaj");
             
             

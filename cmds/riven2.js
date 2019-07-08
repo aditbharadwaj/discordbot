@@ -1,5 +1,6 @@
  const Discord = require("discord.js");
 const api= "http://n9e5v4d8.ssl.hwcdn.net/repos/weeklyRivensPC.json";
+const fetch = require('node-fetch');
 //const api ="https://jsonplaceholder.typicode.com/posts";
 const snekfetch = require("snekfetch");
 
